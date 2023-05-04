@@ -44,15 +44,55 @@ a {
   flex: 1;
 }
 
+/* Hero section starts */
 .Hero {
+  display: flex;
   flex:1;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
+
+.Text-button {
+  flex: 1;
+}
+
+.Main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.Secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.CTA,
+.Sign-up {
+  background: #3882F6;
+  color: #E5E7EB;
+}
+
+.Img {
+  flex: 1;
+  background: lightpink;
+  height: 100px;
+   
+}
+
+/* Hero section ends */
+
 
 .Info {
   flex: 1;
 }
 
 .Quote {
+  flex: 1;
+}
+
+.CTA {
   flex: 1;
 }
 
