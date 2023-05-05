@@ -50,11 +50,12 @@ a {
   flex:1;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  padding: px; 
 }
 
 .Text-button {
-  flex: 1;
+  max-width: 375px;
 }
 
 .Main-text {
@@ -66,6 +67,7 @@ a {
 .Secondary-text {
   font-size: 18px;
   color: #E5E7EB;
+  margin-top: 12px;
 }
 
 .CTA,
@@ -74,23 +76,97 @@ a {
   color: #E5E7EB;
 }
 
+.Sign-up {
+  margin-top: 10px;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+
 .Img {
-  flex: 1;
-  background: lightpink;
-  height: 100px;
-   
+  height: 250px;
+  width: auto; 
+}
+
+img {
+  height: 250px;
+  width: auto;
 }
 
 /* Hero section ends */
 
-
+/* Info section starts */
 .Info {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.Quote {
+.Info-header {
+  font-size: 36px;
+  font-weight: bolder;
   flex: 1;
+  padding-top: 30px;
 }
+
+.Container {
+  display: flex;
+  flex: 2;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.Img-text {
+  max-width: 220px;
+}
+
+.Img-text img {
+  border-radius: 10px;
+  height: 150px;
+  width: auto;
+}
+
+.Text {
+  font-size: 18px;
+  color: #ESE7EB;
+}
+/* Info section ends */
+
+/* Quote section starts */
+.Quote {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quote-container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.Quote-author,
+.Quote-main {
+  font-family: 'Courier New', Courier, monospace;
+  color: #1F2937;
+  font-weight: 100;
+}
+
+.Quote-main {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.Quote-author {
+  margin-top: 15px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+/* Quote section ends */
 
 .CTA {
   flex: 1;
