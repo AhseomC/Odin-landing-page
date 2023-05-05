@@ -70,7 +70,6 @@ a {
   margin-top: 12px;
 }
 
-.CTA,
 .Sign-up {
   background: #3882F6;
   color: #E5E7EB;
@@ -167,8 +166,49 @@ img {
   align-self: flex-end;
 }
 /* Quote section ends */
-
+ /* CTA section starts */
 .CTA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
+  
 }
+
+.CTA-box {
+  display: flex;
+  width: 900px;
+  height: 100px;
+  background: #3882F6;
+  justify-content: space-around;
+}
+
+.Text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #F9FAF8;
+  gap: 5px
+}
+
+.Line-one {
+  font-weight: 600;
+}
+
+.Button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Btn {
+  border: 1px solid #F9FAF8;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+
+
+/* CTA section ends */
 
