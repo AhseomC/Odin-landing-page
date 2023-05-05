@@ -209,6 +209,13 @@ img {
   border-radius: 5px;
 }
 
-
 /* CTA section ends */
 
+/* Footer section starts */
+
+.Footer {
+  text-align: center;
+  color: #E5E7EB;
+  padding: 25px
+}
+/* Footer section ends */
